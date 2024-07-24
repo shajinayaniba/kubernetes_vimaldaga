@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service 
 metadata:
-  name: myloadbalancer1
+  name: bitrixloadbalancer
 spec:
   selector:
-    app: web
+    app: bitrix
   ports:
     - targetPort: 80
-      port: 8080
+      port: 8081
